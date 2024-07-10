@@ -106,6 +106,14 @@ An Awesome List of Celestia Resources
 
 ### Contributions by [kjnodes team](https://kjnodes.com)
 
+#### IBC relayer services - https://relayers.smartstake.io/network/TIA
+kjnodes team ensure smooth $TIA transfers across 5 IBC relay channels:
+* celestia <-> osmosis
+* celestia <-> stride
+* celestia <-> kujira
+* celestia <-> umee
+* celestia <-> archway
+
 #### Validator Slashboard - https://services.kjnodes.com/mainnet/celestia/slashboard
 Dedicated analytics tool designed to showcase the historical data of validator slashing incidents. This tool can be used by Foundation to track validator slashing performance through the Delegation Period. Our roadmap includes expanding this tool to showcase additional Validator Performance metrics such as commission changes, participation in governance and chain upgrades.
 
