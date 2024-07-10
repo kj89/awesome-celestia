@@ -103,3 +103,32 @@ An Awesome List of Celestia Resources
 * [Telegram](https://t.me/CelestiaBrazil)
 
 ## Node operator contributions
+
+### Contributions by [kjnodes team](https://kjnodes.com)
+
+#### Validator Slashboard - https://services.kjnodes.com/mainnet/celestia/slashboard
+Dedicated analytics tool designed to showcase the historical data of validator slashing incidents. This tool can be used by Foundation to track validator slashing performance through the Delegation Period. Our roadmap includes expanding this tool to showcase additional Validator Performance metrics such as commission changes, participation in governance and chain upgrades.
+
+#### Interchain RPC Scanner - https://services.kjnodes.com/mainnet/celestia/public-rpc
+The tool periodically scans the network and return the list of publicly exposed RPC endpoints, this can be useful for developers or anyone who is looking for RPC or archive nodes. The list is also offered in JSON format for others to use.
+
+#### Archival data snapshots - https://services.kjnodes.com/mainnet/celestia/snapshot-archive
+The snapshots that contain compressed copy of complete Celestia blockchain state.
+
+#### Pruned data snapshots - https://services.kjnodes.com/mainnet/celestia/snapshot
+The snapshots are pruned daily to make them small and quick to deploy.
+
+#### Endpoints (RPC/gRPC/REST API) - https://services.kjnodes.com/mainnet/celestia
+We offer endpoints for RPC, gRPC and REST API for public use without registration requirements. These services are running on split off infrastructure, and developers can freely test various integration scenarios with a wide range of chains. All our endpoints are offered with TLS termination, ensuring end-to-end encryption, so clients can be sure they reach our service and don't get eavesdropped on.
+
+#### Peering services - https://services.kjnodes.com/mainnet/celestia
+We offer peer discovery and bootstrap services to ease deployment of new nodes. This includes a seed node, that works as a light client for discovering other nodes. This also includes a peer node, intended as a P2P peer for obtaining the application state at a recent height.
+
+#### Telegram Governance Bot - https://services.kjnodes.com/bots/telegram-proposal
+The bot is built for community and node operators to keep track of on-chain governance proposals. It notifies you whenever a new proposal is initiated. 
+
+#### Running bridge nodes
+To support the network we run Celestia Bridge nodes for both mainnet and testnet networks.
+
+#### Testnet services - https://services.kjnodes.com/testnet/celestia
+Most of the services mentioned above are also deployed for the testnet.
